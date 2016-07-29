@@ -1,10 +1,10 @@
 header {
   display: inline-flex;
   margin-left: 4em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #split {
-  border: 4px dotted brown;
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -23,7 +23,6 @@ main {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: baseline;
-  border: 2px solid red;
   width: 60%;
 }
 
@@ -33,7 +32,6 @@ main {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: baseline;
-  border: 2px solid blue;
   width: 20%;
 }
 
@@ -43,10 +41,6 @@ main {
 
 .grey {
   color: #5A646A;
-}
-
-#lu_map {
-  background-image: url(hipsterlocation.png);
 }
 
 #flexy{
@@ -59,7 +53,6 @@ section {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: baseline;
-  border: 2px solid green;
   width: 40%;
 }
 
@@ -121,4 +114,41 @@ div#green {
 #color-container {
   display: inline-flex;
   width:20%;
+}
+
+#images {
+}
+
+#main-image {
+  width: 350px;
+  height: 300px;
+  background-image: url('http://www.thetimes.co.uk/tto/multimedia/archive/00986/d722202a-692f-11e5-_986976b.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+#four-container {
+  display: flex;
+  width: 350px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+
+#four-container img {
+  height: 70px;
+  width: 85px
+}
+
+.small-image {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#lu_map{
+  height: 200px;
+  width: 350px;
 }
