@@ -1,0 +1,153 @@
+header {
+  display: inline-flex;
+  margin-left: 4em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#split {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  font-family: 'Open Sans', sans-serif;
+  width:100%;
+}
+
+#flexible {
+  display: flex;
+  width: 100%;
+  background-color: #292F32;
+}
+
+main {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  width: 60%;
+}
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  width: 20%;
+}
+
+.white {
+  color:white;
+}
+
+.grey {
+  color: #5A646A;
+}
+
+#flexy{
+  display:flex;
+  width: 80%;
+  background-color: white;
+}
+section {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  width: 40%;
+}
+
+input {
+  height: 2em;
+  width: 40em;
+}
+
+#option {
+  color: grey;
+  text-align: right;
+  display: block;
+  font-size: 2em;
+  height: 1.5em;
+}
+
+#google {
+  height: 2em;
+}
+
+#plus {
+  color: #DF4439;
+  font-size: 6em;
+  text-align: right;
+}
+
+div.colors {
+  display:inline-flex;
+}
+
+div#blue {
+  background-color: #085FC2;
+  width: 4em;
+  height: 4px;
+  padding: 3px;
+}
+
+div#red {
+  background-color: #DF4439;
+  padding: 3px;
+  width: 4em;
+  height:4px;
+}
+
+div#yellow {
+  background-color:#F4B13D;
+  padding: 3px;
+  width: 4em;
+  height:4px;
+}
+
+div#green {
+  background-color: #00985D;
+  padding: 3px;
+  width: 4em;
+  height:4px;
+}
+
+#color-container {
+  display: inline-flex;
+  width:20%;
+}
+
+
+
+#main-image {
+  width: 350px;
+  height: 300px;
+  background-image: url('http://www.thetimes.co.uk/tto/multimedia/archive/00986/d722202a-692f-11e5-_986976b.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+#four-container {
+  display: flex;
+  width: 350px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+
+#four-container img {
+  height: 70px;
+  width: 85px
+}
+
+.small-image {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#lu_map{
+  height: 200px;
+  width: 350px;
+}
